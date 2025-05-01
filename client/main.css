@@ -1,0 +1,155 @@
+:root {
+  --background: #101020;
+  --primary-color: #bc9867;
+  --secondary-color: #f0e090;
+  --accent-color: #e90;
+  --linkColor: #3080d0;
+  --linkHoverColor: #D08050;
+}
+
+#free img {
+  max-width: 100%;
+  height: auto;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.progress-bar-fill {
+  height: 20px;
+  background-color: #4caf50;
+  width: 0%;
+  border-radius: 5px;
+}
+
+body {
+  background: black;
+  color: white;
+  font-size: 120%;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+  padding: 0.25em;
+}
+
+header,
+nav,
+footer,
+section {
+  text-align: left;
+  background-color: var(--background);
+  padding: 0.1em 1em;
+  border-radius: 1em;
+  margin-top: 1em;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+code, h2, h3, h4 {
+  color: var(--secondary-color);
+}
+code {
+  font-size: 1.254em;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--accent-color);
+}
+
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  border-radius: 0.5em;
+  border: none;
+  margin: 1em;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: transparent;
+  color: var(--linkColor);
+  border: 3px solid var(--linkColor);
+}
+
+button,
+a,
+button:visited,
+a:visited,
+button:active,
+a:active {
+  color: var(--linkColor);
+}
+button:hover,
+a:hover {
+  color: var(--linkHoverColor);
+}
+
+button:hover {
+  border: 3px solid var(--linkHoverColor);
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mini {
+  display: inline-block;
+  height: 1.5em;
+  width: auto;
+  vertical-align: bottom;
+}
+.small {
+
+  max-width: 64px;
+  height: auto;
+}
+
+.mid {
+  height: 256px;
+  width: auto;
+}
+
+.progress-container {
+  position: absolute;
+  top: -32px;
+  left: 0;
+  right: 0;
+  float: left;
+  filter: drop-shadow(-3px -3px 5px black);
+}
+
+@media only screen and (max-width: 500px) {
+  .small {
+    height: 64px;
+  }
+  .mid {
+    height: 128px;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+  body {
+    font-size: 1em;
+  }
+  .small {
+    height: 32px;
+  }
+  .mid {
+    height: 64px;
+  }
+}

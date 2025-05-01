@@ -1,0 +1,984 @@
+<head>
+  <title>Meteor App</title>
+</head>
+
+<body>
+<header>
+  <h1>
+    Axolotl Quests
+  </h1>
+  <h4>A Warframe clan</h4>
+</header>
+<nav>
+  <a href="#game">
+    <button>
+      Game
+    </button>
+  </a>
+  <a href="#about">
+    <button>
+      About
+    </button>
+  </a>
+  <a href="#info">
+    <button>
+      Advice
+    </button>
+  </a>
+  <a href="#free">
+    <button>
+      Free
+    </button>
+  </a>
+  <a href="#gear">
+    <button>
+      Gear
+    </button>
+  </a>
+  <a href="#mats">
+    <button>
+      Farm
+    </button>
+  </a>
+  <a href="#goals">
+    <button>
+      Goals
+    </button>
+  </a>
+  <a href="#time">
+    <button>
+      Time
+    </button>
+  </a>
+</nav>
+<main>
+  <article>
+    <section>
+      <h2 id="game">
+        What is warframe?
+      </h2>
+      <p>
+        Warframe is a free-to-play science fantasy hack-and-slash game featuring space ninjas.
+      </p>
+      <p>
+        Players can fund the game by purchasing in-game currency called Platinum (or Plat), but the in-game economy allows for trade, enabling free accounts to farm items and trade them for Platinum. Plat is used to accelerate timers, buy in-game cosmetics, and trade for most things. Free players will need to dip their toes in the market if they progress long enough.
+      </p>
+      <p>
+        The deep lore involves children possessing robots called <code>warframes</code> (space ninjas) made from an <code>infested</code> (enemy faction) strain.
+      </p>
+      <p>
+        The core gameplay loop is go to a mission, clear the objective(s), gather materials, and craft better gear.
+      </p>
+
+      <h3>Enemy Factions</h3>
+      <div class="flex">
+        <div>
+          <h4>Grineer</h4>
+          <img class="small" src="https://wiki.warframe.com/images/Grineer.png" alt="">
+          <p>Increased damage from <code>Impact</code> and <code>Corrosive</code></p>
+          <p>
+            <i>Bassically cloned bees</i>
+          </p>
+        </div>
+        <div>
+          <h4>Corpus</h4>
+          <img class="small" src="https://wiki.warframe.com/images/Corpus.png" alt="">
+          <p>Increased damage from <code>Puncture</code> and <code>Magnetic</code></p>
+          <p>
+            <i>Drones working for corporate interests</i>
+          </p>
+        </div>
+        <div>
+          <h4>Infested</h4>
+          <img class="small" src="https://wiki.warframe.com/images/Infested.png" alt="">
+          <p>Increased damage from <code>Slash</code> and <code>Heat</code></p>
+          <p>
+            <i>Techrot</i>
+          </p>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <a href="https://www.warframe.com/landing" target="_blank">
+        <div class="flex">
+          <img class="mid" src="https://www-static.warframe.com/images/longlanding/excal.png" alt="Excalibur Warframe">
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="flex">
+          <button>
+            Play for free
+          </button>
+        </div>
+      </a>
+    </section>
+
+    <section>
+      <h2 id="about">
+        Clan?
+      </h2>
+      <p>
+        A clan is like a guild: a collection of players gathered around a shared purpose. Some clans will only let you join if you are very hardcore about farming / grinding or event focused. Some are big into collecting taxes. Here's us in a nutshell:
+      <ul>
+        <li>
+          <strong>0% tax rate</strong>: the clan will never force members to give up credits or materials.
+        </li>
+        <li>
+          <strong>Casual</strong>: the clan does not force members to log in frequently. Real life comes first. Some members play a lot some do not.
+        </li>
+        <li>
+          <strong>Mentorship on request</strong>: if you request advice it is available. We have veterans who have been playing the game for years and we have people who are brand new.
+        </li>
+        <li>
+          <strong>Discord</strong>: We use Discord to form squads and coordinate.
+        </li>
+      </ul>
+      </p>
+      <p>My oldest started playing on the XBox so don't assume <code>Wurmboy1</code> is me.</p>
+      <p>We are a family friendly clan for casual gamers that aren't focused on efficency or the hardcore grind. We have a few players who do play like that but the clan wants to stay relaxed.</p>
+      <p>
+        <a href="https://discord.gg/Pe7p9rHYmj" target="_blank">
+          <button class="ghost">
+            Discord
+          </button>
+        </a>
+      </p>
+    </section>
+    <section>
+      <h2 id="info">Advice</h2>
+      <ul>
+        <li>
+          <a href="https://warframe.fandom.com/wiki/Excalibur/Umbra" target="_blank">Excalibur Umbra</a> is very good for free players. There are several quests to clear to get it but it is worth it.
+        </li>
+
+        <li>
+          It's good to know the current
+          <a href="https://warframe.market/" target="_blank"> Market Values </a> of items if you're looking to trade.
+        </li>
+        <li>
+          We throw around a lot of slang. For example Orokin Catalysts we refer to as potatoes.
+        </li>
+      </ul>
+    </section>
+    <section id="free">
+      <h3>Stay Free-to-Play</h3>
+      <h4>Get Prime Blue Prints</h4>
+      <p>Relics are awarded on several missions.</p>
+      <p>Initiate a relic mission using the relic alerts.</p>
+      <img src="https://i.imgur.com/2W0Dpuh.jpeg" alt="">
+
+      <p>Relics have a random chance of containing one of a variety of components.</p>
+      <img src="https://i.imgur.com/1RUhLi0.jpeg" alt="">
+
+      <p>You can choose from the relics opened by all squad members; if someone draws a rare item, everyone can claim it.</p>
+      <img src="https://i.imgur.com/ot7sJKs.jpeg" alt="">
+
+      <h4>Sell Primes for platinum</h4>
+      <p>Sell items to other players through the trade chat.</p>
+      <p>Use <a href="https://warframe.market/" target="_blank">market sites</a> to know the going rate of things and not be scammed.</p>
+      <p>Lean more about trading via the <a href="https://warframe.fandom.com/wiki/Trading" target="_blank">wiki</a></p>
+      <img src="https://i.imgur.com/fWaaW3i.jpeg" alt="">
+
+      <h4>Buy What You Want</h4>
+      <p>Utilize the trade chat again to purchase the items you want or just spend the platinum on things in the market or cosmetics.</p>
+      <img src="https://i.imgur.com/e6dpdjN.jpeg" alt="">
+    </section>
+    <section>
+      <h3 id="gear">Gear Suggestions</h3>
+      <p>Gear suggestions are not authoratative, just tips if you're lost in a sea of choices. There are lots of good alternatives, too.</p>
+      <h3>Frames</h3>
+      <p>Free accounts start off with 3 frame slots. Don't feel like you need to collect them all. Every frame can do everything, but some frames are better at some things.</p>
+      <h4>Excalibur Umbra</h4>
+      <a href="https://warframe.fandom.com/wiki/Excalibur/Umbra" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/ExcaliburUmbraFull.png" alt="">
+        </div>
+      </a>
+      <p>
+        Excalibur Umbra is given to you after you complete <a href="https://warframe.fandom.com/wiki/The_Sacrifice" target="_blank"> The Sacrifice quest </a> and is verry good at crowd control.
+      </p>
+      <h4>Rhino</h4>
+      <a href="https://warframe.fandom.com/wiki/Rhino" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Rhino.png" alt="">
+        </div>
+      </a>
+      <p>
+        Rhino is a good jack of all trades.
+      </p>
+      <h4>Frost</h4>
+      <a href="https://warframe.fandom.com/wiki/Frost" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Frost.png" alt="">
+        </div>
+      </a>
+      <p>
+        Frost is good for <code>defense</code> missions.
+      </p>
+      <h4>Nekros</h4>
+      <a href="https://warframe.fandom.com/wiki/Nekros" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Nekros.png" alt="">
+        </div>
+      </a>
+      <p>
+        Nekros is good for <code>survival</code> missions.
+      </p>
+      <h4>Loki</h4>
+      <a href="https://warframe.fandom.com/wiki/Loki" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Loki.png" alt="">
+        </div>
+      </a>
+      <p>
+        Loki is good for <code>spy</code> missions.
+      </p>
+      <h4>Zephyr</h4>
+      <a href="https://warframe.fandom.com/wiki/Zephyr" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Zephyr.png" alt="">
+        </div>
+      </a>
+
+      <p>
+        Zephyr is good for <code>farming open worlds</code> like Plains of Eidolon, Orb Vallis, and Cambion Drift.
+      </p>
+      <h3>Primary</h3>
+      <h4>Soma</h4>
+      <a href="https://warframe.fandom.com/wiki/Soma" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Soma.png?b2ba2" alt="">
+        </div>
+      </a>
+      <p>
+        Free players should work on getting the Soma if they like rifles. Large magazine, fast fire rate, good crit chance.
+      </p>
+      <h4>Boltor</h4>
+      <a href="https://warframe.fandom.com/wiki/Boltor" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Boltor.png?b2ba2" alt="">
+        </div>
+      </a>
+      <p>
+        If you like rifles but dont have the Mastery Rank (MR) for the soma, I recommend the Boltor.
+      </p>
+      <h4>Phantasma</h4>
+      <a href="https://warframe.fandom.com/wiki/Phantasma" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Phantasma.png?f9cf1&20220407163537" alt="">
+        </div>
+      </a>
+      <p>The Phantasma is a laser shotgun with high status chance.</p>
+      <h4>Fulmin</h4>
+      <a href="https://warframe.fandom.com/wiki/Fulmin" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Fulmin.png" alt="">
+        </div>
+      </a>
+      <p>The Fulmin has two fire modes, a rifle and a shotgun.</p>
+      <h4>Secondary</h4>
+      <h4>Atomos</h4>
+      <a href="https://warframe.fandom.com/wiki/Atomos" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Atomos.png" alt="">
+        </div>
+      </a>
+      <p>
+        The Atomos is a good weapon for status effects.
+      </p>
+
+      <h3>Melee</h3>
+      <h4>Broken War</h4>
+      <a href="https://warframe.fandom.com/wiki/Broken_War" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/BrokenWar.png" alt="">
+        </div>
+      </a>
+      <p>
+        The Broken War is given to you after you complete <a href="https://warframe.fandom.com/wiki/The_Second_Dream" target="_blank"> The Second Dream quest</a>, it is one of the best melee weapons you can get.
+      </p>
+      <h4>Skiajati</h4>
+      <a href="https://warframe.fandom.com/wiki/Skiajati" target="_blank">
+        <div class="flex">
+          <img class="small" src="https://wiki.warframe.com/images/Skiajati.png" alt="">
+        </div>
+      </a>
+      <p>
+        The Skiajati is given to you after you complete <a href="https://warframe.fandom.com/wiki/The_Sacrifice" target="_blank"> The Sacrifice quest </a> and it is a very good Nikana.
+      </p>
+    </section>
+    <section>
+      <h3 id="mats">Crafting Materials</h3>
+
+      <p>This secion is a work in progress</p>
+      <div class="flex">
+        <div>
+          <h4>Earth</h4>
+          <a href="https://warframe.fandom.com/wiki/Earth" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Earth.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Ferrite.png" alt="Ferrite" class="mini">
+            Ferrite
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Rubedo.png" alt="Rubedo" class="mini">
+            Rubedo
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Neurodes.png" alt="Neurodes" class="mini">
+            Neurodes
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/DetoniteAmpule.png" alt="Detonite Ampule" class="mini">
+            Detonite Ampule
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Venus</h4>
+          <a href="https://warframe.fandom.com/wiki/Earth" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Venus.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/AlloyPlate.png" class="mini">
+            Alloy Plate
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/PolymerBundle.png" class="mini">
+            Polymer Bundle
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Circuits.png" class="mini">
+            Circuits
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/FieldronSample.png" class="mini">
+            Fieldron Sample
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Mercury</h4>
+          <a href="https://warframe.fandom.com/wiki/Mercury" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Mercury.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Ferrite.png" class="mini">
+            Ferrite
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/PolymerBundle.png" class="mini">
+            Polymer Bundle
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Morphics.png" class="mini">
+            Morphics
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/DetoniteAmpule.png" class="mini">
+            Detonite Ampule
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Mars</h4>
+          <a href="https://warframe.fandom.com/wiki/Mars" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Mars.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Gallium.png" class="mini">
+            Gallium
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Morphics.png" class="mini">
+            Morphics
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Salvage.png" class="mini">
+            Salvage
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/FieldronSample.png" class="mini">
+            Fieldron Sample
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Deimos</h4>
+          <a href="https://warframe.fandom.com/wiki/Deimos" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Deimos.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/NanoSpores.png" class="mini">
+            Nano Spores
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/MutagenSample.png" class="mini">
+            Mutagen Sample
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/OrokinCell.png" class="mini">
+            Orokin Cell
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Neurodes.png" class="mini">
+            Neurodes
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Phobos</h4>
+          <a href="https://warframe.fandom.com/wiki/Phobos" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Phobos.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Rubedo.png" class="mini">
+            Rubedo
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Morphics.png" class="mini">
+            Morphics
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Plastids.png" class="mini">
+            Plastids
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/AlloyPlate.png" class="mini">
+            Alloy Plate
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Ceres</h4>
+          <a href="https://warframe.fandom.com/wiki/Ceres" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Ceres.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/AlloyPlate.png" class="mini">
+            Alloy Plate
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Circuits.png" class="mini">
+            Circuits
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/OrokinCell.png" class="mini">
+            Orokin Cell
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/DetoniteAmpule.png" class="mini">
+            Detonite Ampule
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Carbides.png" class="mini">
+            Carbides
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Jupiter</h4>
+          <a href="https://warframe.fandom.com/wiki/Jupiter" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Jupiter.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Salvage.png" class="mini">
+            Salvage
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Hexenon.png" class="mini">
+            Hexenon
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/NeuralSensors.png" class="mini">
+            Neural Sensors
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/AlloyPlate.png" class="mini">
+            Alloy Plate
+          </p>
+          <p>
+            Io is good for farming <img src="https://wiki.warframe.com/images/Oxium.png" class="mini"> Oxium
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Europa</h4>
+          <a href="https://warframe.fandom.com/wiki/Europa" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Europa.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Morphics.png" class="mini">
+            Morphics
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Rubedo.png" class="mini">
+            Rubedo
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/FieldronSample.png" class="mini">
+            Fieldron Sample
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/ControlModule.png" class="mini">
+            Control Module
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/CubicDiodes.png" class="mini">
+            Cubic Diodes
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Saturn</h4>
+          <a href="https://warframe.fandom.com/wiki/Saturn" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Saturn.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/NanoSpores.png" class="mini">
+            Nano Spores
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Plastids.png" class="mini">
+            Plastids
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/OrokinCell.png" class="mini">
+            Orokin Cell
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/DetoniteAmpule.png" class="mini">
+            Detonite Ampule
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Uranus</h4>
+          <a href="https://warframe.fandom.com/wiki/Uranus" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Uranus.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Gallium.png" class="mini">
+            Gallium
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Plastids.png" class="mini">
+            Plastids
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/PolymerBundle.png" class="mini">
+            Polymer Bundle
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/DetoniteAmpule.png" class="mini">
+            Detonite Ampule
+          </p>
+
+          <p>
+            <img src="https://wiki.warframe.com/images/Tellurium.png" class="mini">
+            Tellurium
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Neptune</h4>
+          <a href="https://warframe.fandom.com/wiki/Neptune" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Neptune.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/NanoSpores.png" class="mini">
+            Nano Spores
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Ferrite.png" class="mini">
+            Ferrite
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/ControlModule.png" class="mini">
+            Control Module
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/FieldronSample.png" class="mini">
+            Fieldron Sample
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Pluto</h4>
+          <a href="https://warframe.fandom.com/wiki/Pluto" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Pluto.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Rubedo.png" class="mini">
+            Rubedo
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Morphics.png" class="mini">
+            Morphics
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Plastids.png" class="mini">
+            Plastids
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/AlloyPlate.png" class="mini">
+            Alloy Plate
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/FieldronSample.png" class="mini">
+            Fieldron Sample
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Sedna</h4>
+          <a href="https://warframe.fandom.com/wiki/Sedna" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Sedna.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/AlloyPlate.png" class="mini">
+            Alloy Plate
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Rubedo.png" class="mini">
+            Rubedo
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Salvage.png" class="mini">
+            Salvage
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/DetoniteAmpule.png" class="mini">
+            Detonite Ampule
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Eris</h4>
+          <a href="https://warframe.fandom.com/wiki/Eris" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Eris.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/NanoSpores.png" class="mini">
+            Nano Spores
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Plastids.png" class="mini">
+            Plastids
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Neurodes.png" class="mini">
+            Neurodes
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/MutagenSample.png" class="mini">
+            Mutagen Sample
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Void</h4>
+          <a href="https://warframe.fandom.com/wiki/Void" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Void.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Ferrite.png" class="mini">
+            Ferrite
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Rubedo.png" class="mini">
+            Rubedo
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/ArgonCrystal.png" class="mini">
+            Argon Crystal
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/ControlModule.png" class="mini">
+            Control Module
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Lua</h4>
+          <a href="https://warframe.fandom.com/wiki/Lua" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Lua.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Ferrite.png" class="mini">
+            Ferrite
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Rubedo.png" class="mini">
+            Rubedo4
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Neurodes.png" class="mini">
+            Neurodes
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/DetoniteAmpule.png" class="mini">
+            Detonite Ampule
+          </p>
+          <p>
+            <i>
+              Visible after <code>The Second Dream</code> quest
+            </i>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Kuva Fortress</h4>
+          <a href="https://warframe.fandom.com/wiki/Kuva_Fortress" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/Kuva_Fortress.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Salvage.png" class="mini">
+            Salvage
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Circuits.png" class="mini">
+            Circuits
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/NeuralSensors.png" class="mini">
+            Neural Sensors
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/DetoniteAmpule.png" class="mini">
+            Detonite Ampule
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/Tellurium.png" class="mini">
+            Tellurium
+          </p>
+          <p>
+            <i>
+              Visible after <code>The War Within</code> quest
+            </i>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex">
+        <div>
+          <h4>Zariman Ten Zero</h4>
+          <a href="https://warframe.fandom.com/wiki/Zariman_Ten_Zero" target="_blank">
+            <img class="small" src="https://wiki.warframe.com/images/New_Zariman.png" alt="">
+          </a>
+        </div>
+        <div>
+          <p>
+            <img src="https://wiki.warframe.com/images/Ferrite.png" class="mini">
+            Ferrite
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/AlloyPlate.png" class="mini">
+            Alloy Plate
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/VoidgelOrb.png" class="mini">
+            Voidgel Orb
+          </p>
+          <p>
+            <img src="https://wiki.warframe.com/images/EntratiLanthorn.png" class="mini">
+            Entrati Lanthorn
+          </p>
+          <p>
+            <i>
+              Visible after <code>Angels of the Zariman</code> quest
+            </i>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="goals">
+      <p>These are just suggestions if you don't know what to do: </p>
+      <h4>General Goals</h4>
+      <ul>
+        <li>Unlock the map</li>
+        <li>Farm the Plains (Earth | Grineer)</li>
+        <li>Farm the Orb (Venus | Corpus)</li>
+        <li>Farm the Drift (Deimos | Infested)</li>
+        <li>Increase MR: rank up stuff</li>
+      </ul>
+      <h4>Quest Goals</h4>
+      <ol>
+        <li>Complete the quest: The Second Dream</li>
+        <li>Complete the quest: The War Within</li>
+        <li>Complete the quest: The Sacrifice</li>
+        <li>Complete the quest: Prelude To War</li>
+        <li>Complete the quest: The New War</li>
+        <li>Complete the quest: Angels of the Zariman</li>
+      </ol>
+    </section>
+    <section id="time">
+      <h4>Current Time</h4>
+      <div class="flex">
+        <p id="current">current</p>
+      </div>
+      <h4>Daily Reset</h4>
+      <div class="flex">
+        <p>
+          UTC 00:00
+          <br>
+          <code id="daily" style="font-size: 3em;"> daily</code>
+        <div class="flex progress-container">
+          <canvas id="progressCanvas" width="64" height="64">Foo</canvas>
+        </div>
+        </p>
+      </div>
+      <!-- 			<div class="progress-bar" id="progressElapsed">
+		  <div class="progress-bar-fill" id="fillElapsed"></div>
+		  <p></p>
+		  <div class="progress-bar" id="progressRemaining">
+			  <div class="progress-bar-fill" id="fillRemaining"></div>
+		  </div>
+	  </div> -->
+
+    </section>
+    <section>
+      Weekly
+      <div class="flex">
+        <code id="weeklyreset" style="font-size: 3em;"> weekly</code>
+      </div>
+    </section>
+    <section>
+      <p> Eastern (EST): UTC-5
+      </p>
+      <div class="flex">
+        <p id="time-east">current</p>
+      </div>
+      <p> Central (CST): UTC-6
+      </p>
+      <div class="flex">
+        <p id="time-central">current</p>
+      </div>
+      <p> Mountain (MST): UTC-7
+      </p>
+      <div class="flex">
+        <p id="time-mountain">current</p>
+      </div>
+      <p> Pacific (PST): UTC-8
+      </p>
+      <div class="flex">
+        <p id="time-pacific">current</p>
+      </div>
+      <p> Alaska (AKST): UTC-9
+      </p>
+      <div class="flex">
+        <p id="time-alaska">current</p>
+      </div>
+      <p> Hawaii-Aleutian (HAST): UTC-10
+      </p>
+      <div class="flex">
+        <p id="time-hawaii">current</p>
+      </div>
+    </section>
+  </article>
+
+  {{>hello}}
+</main>
+<footer>
+  <p>
+    A pen by <a href="https://codepen.io/Zachary-Beyer/full/vYMvBQb" target="_blank">ZBeyer</a> / Wurmboy
+  </p>
+</footer>
+</body>
+
+<template name="hello">
+
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+  </ul>
+</template>
