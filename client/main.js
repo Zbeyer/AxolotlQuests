@@ -3,7 +3,6 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
-Template.hello.onCreated(function helloOnCreated() {
   const geCurrentTimeyElement = function () {
     const element = document.getElementById("current");
     return element;
@@ -170,6 +169,7 @@ Template.hello.onCreated(function helloOnCreated() {
   };
 
   setInterval(updateClock, 180);
+Template.hello.onCreated(function helloOnCreated() {
 
 });
 
