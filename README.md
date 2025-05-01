@@ -3,6 +3,6 @@
 https://axolotlquests.meteorapp.com/#time
 
 ```bash
-meteor deploy AxolotlQuests                              
+meteor deploy AxolotlQuests
 ```
 

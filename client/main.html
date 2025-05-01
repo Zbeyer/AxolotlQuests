@@ -1,5 +1,5 @@
 <head>
-  <title>Meteor App</title>
+  <title>Axolotl Quests</title>
 </head>
 
 <body>
@@ -7,69 +7,15 @@
   <h1>
     Axolotl Quests
   </h1>
-  <h4>A Warframe clan</h4>
+  <h2>
+    A Warframe clan
+  </h2>
 </header>
-<nav>
-  <a href="#game">
-    <button>
-      Game
-    </button>
-  </a>
-  <a href="#about">
-    <button>
-      About
-    </button>
-  </a>
-  <a href="#info">
-    <button>
-      Advice
-    </button>
-  </a>
-  <a href="#free">
-    <button>
-      Free
-    </button>
-  </a>
-  <a href="#gear">
-    <button>
-      Gear
-    </button>
-  </a>
-  <a href="#mats">
-    <button>
-      Farm
-    </button>
-  </a>
-  <a href="#goals">
-    <button>
-      Goals
-    </button>
-  </a>
-  <a href="#time">
-    <button>
-      Time
-    </button>
-  </a>
-</nav>
 <main>
   <article>
+    {{> aboutGame}}
+    {{> timers}}
     <section>
-      <h2 id="game">
-        What is warframe?
-      </h2>
-      <p>
-        Warframe is a free-to-play science fantasy hack-and-slash game featuring space ninjas.
-      </p>
-      <p>
-        Players can fund the game by purchasing in-game currency called Platinum (or Plat), but the in-game economy allows for trade, enabling free accounts to farm items and trade them for Platinum. Plat is used to accelerate timers, buy in-game cosmetics, and trade for most things. Free players will need to dip their toes in the market if they progress long enough.
-      </p>
-      <p>
-        The deep lore involves children possessing robots called <code>warframes</code> (space ninjas) made from an <code>infested</code> (enemy faction) strain.
-      </p>
-      <p>
-        The core gameplay loop is go to a mission, clear the objective(s), gather materials, and craft better gear.
-      </p>
-
       <h3>Enemy Factions</h3>
       <div class="flex">
         <div>
@@ -895,88 +841,27 @@
         <li>Complete the quest: Angels of the Zariman</li>
       </ol>
     </section>
-    <section id="time">
-      <h4>Current Time</h4>
-      <div class="flex">
-        <p id="current">current</p>
-      </div>
-      <h4>Daily Reset</h4>
-      <div class="flex">
-        <p>
-          UTC 00:00
-          <br>
-          <code id="daily" style="font-size: 3em;"> daily</code>
-        <div class="flex progress-container">
-          <canvas id="progressCanvas" width="64" height="64">Foo</canvas>
-        </div>
-        </p>
-      </div>
-      <!-- 			<div class="progress-bar" id="progressElapsed">
-		  <div class="progress-bar-fill" id="fillElapsed"></div>
-		  <p></p>
-		  <div class="progress-bar" id="progressRemaining">
-			  <div class="progress-bar-fill" id="fillRemaining"></div>
-		  </div>
-	  </div> -->
-
-    </section>
-    <section>
-      Weekly
-      <div class="flex">
-        <code id="weeklyreset" style="font-size: 3em;"> weekly</code>
-      </div>
-    </section>
-    <section>
-      <p> Eastern (EST): UTC-5
-      </p>
-      <div class="flex">
-        <p id="time-east">current</p>
-      </div>
-      <p> Central (CST): UTC-6
-      </p>
-      <div class="flex">
-        <p id="time-central">current</p>
-      </div>
-      <p> Mountain (MST): UTC-7
-      </p>
-      <div class="flex">
-        <p id="time-mountain">current</p>
-      </div>
-      <p> Pacific (PST): UTC-8
-      </p>
-      <div class="flex">
-        <p id="time-pacific">current</p>
-      </div>
-      <p> Alaska (AKST): UTC-9
-      </p>
-      <div class="flex">
-        <p id="time-alaska">current</p>
-      </div>
-      <p> Hawaii-Aleutian (HAST): UTC-10
-      </p>
-      <div class="flex">
-        <p id="time-hawaii">current</p>
-      </div>
-    </section>
   </article>
 </main>
-<footer>
-  <p>
-    A pen by <a href="https://codepen.io/Zachary-Beyer/full/vYMvBQb" target="_blank">ZBeyer</a> / Wurmboy
-  </p>
-</footer>
 </body>
 
-<template name="hello">
+<template name="aboutGame">
+<section>
+  <h2 id="game">
+    What is warframe?
+  </h2>
+  <p>
+    Warframe is a free-to-play science fantasy hack-and-slash game featuring space ninjas.
+  </p>
+  <p>
+    Players can fund the game by purchasing in-game currency called Platinum (or Plat), but the in-game economy allows for trade, enabling free accounts to farm items and trade them for Platinum. Plat is used to accelerate timers, buy in-game cosmetics, and trade for most things. Free players will need to dip their toes in the market if they progress long enough.
+  </p>
+  <p>
+    The deep lore involves children possessing robots called <code>warframes</code> (space ninjas) made from an <code>infested</code> (enemy faction) strain.
+  </p>
+  <p>
+    The core gameplay loop is go to a mission, clear the objective(s), gather materials, and craft better gear.
+  </p>
+</section>
 
-</template>
-
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
 </template>
